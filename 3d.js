@@ -1,10 +1,10 @@
-var scene = new THREE.Scene();
-var renderer = new THREE.WebGLRenderer();
+const scene = new THREE.Scene();
+const renderer = new THREE.WebGLRenderer();
 // Set the scene size.
 const WIDTH = window.innerWidth;
 const HEIGHT = window.innerHeight;
 // Set some camera attributes.
-const VIEW_ANGLE = 90;
+const VIEW_ANGLE = 50;
 const ASPECT = WIDTH / HEIGHT;
 const NEAR = 0.01;
 const FAR = 10000;
