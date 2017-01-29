@@ -104,7 +104,7 @@ function moveCubes(cubes, x, y, z)
     const startingPointX =50;
     const startingPointY =-50;
     const startingPointZ = -80;
-    const step = 15;
+    const step = 10;
 
     var index = 0;
 
